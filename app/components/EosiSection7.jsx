@@ -14,7 +14,7 @@ export default function EosiSection7() {
             <Image src={section7Left} alt="" />
 
             <p className="leading-6"> 
-                If you're looking for a simple, secure  and decentralized way to grow your crypto portfolio, EOSI Finance is definitely worth checking out.
+                If you are looking for a simple, secure  and decentralized way to grow your crypto portfolio, EOSI Finance is definitely worth checking out.
 
             </p>
 

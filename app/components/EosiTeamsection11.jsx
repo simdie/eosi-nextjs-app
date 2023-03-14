@@ -40,7 +40,7 @@ export default function EosiTeamsection11() {
             <div className='flex flex-col items-center justify-center w-4/12'>
                 <Image src={funder3} alt="" />
                 <p className='text-lg font-semibold pt-3'>Olick</p>
-                <p>Quat Trader/Pro-Trader's Supervisor</p>
+                <p>Quat Trader/Pro-Trader&apos;s Supervisor</p>
             </div>
         </div>
 

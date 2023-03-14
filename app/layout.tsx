@@ -1,6 +1,5 @@
 import './globals.css'
 import Header from './components/Header'
-import Slider from './components/Slider'
 import HeroBody from './components/HeroBody'
 import TraderStat from './components/TraderStat'
 import GetStarted from './components/GetStarted'

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-export default function MenuItem({title, address} ) {
+export default function MenuItem({title, address}: {title: string; address: string} ) {
   return (
     <div>
         <Link href={address} className="mx-4 lg:mx-6 hover:text-amber-600">
