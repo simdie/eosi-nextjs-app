@@ -1,4 +1,8 @@
-// import React from 'react'
+import Image from "next/image"
+import getstarted1 from "public/getstarted1.png"
+import getstarted2 from "public/getstarted2.png"
+import getstarted3 from "public/getstarted3.png"
+
 
 export default function GetStarted() {
   return (
@@ -13,7 +17,7 @@ export default function GetStarted() {
 
             <div className="flex flex-col items-center w-1/3 h-40 space-y-5">
                 
-                <img src="getstarted1.png" alt="" />
+                <Image src={getstarted1} alt="" />
                 <div className="flex flex-col items-center justify-center">
                     <p className="font-bold text-lg">1. Sign Up for Free</p>
                     <p className="text-center px-12">We have different categories of pro-traders to suit your needs.</p>
@@ -24,7 +28,7 @@ export default function GetStarted() {
 
             <div className="flex flex-col items-center w-1/3 h-40 space-y-5">
                 
-                <img src="getstarted2.png" alt="" />
+                <Image src={getstarted2} alt="" />
                 <div className="flex flex-col items-center justify-center">
                     <p className="font-bold text-lg">2. Trade with your Web3 Wallet</p>
                     <p className="text-center px-12">Connect your existing web3 wallets like Metamask, Trustwallet, SafePal etc and approve the amount you want to trade with.</p>
@@ -35,7 +39,7 @@ export default function GetStarted() {
 
             <div className="flex flex-col items-center w-1/3 h-40 space-y-5">
                 
-                <img src="getstarted3.png" alt="" />
+                <Image src={getstarted3} alt="" />
                 <div className="flex flex-col items-center justify-center">
                     <p className="font-bold text-lg">3. Start investing Today</p>
                     <p className="text-center px-12">Choose from a wide seletion of our doxxed pro-traders or allow EOSI Finance AI to select pro-traders according to your risk level.</p>

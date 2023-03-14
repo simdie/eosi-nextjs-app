@@ -1,4 +1,6 @@
-
+import Image from "next/image"
+import section7Left from "public/section7-left.png"
+import section7Right from "public/section7-right.png"
 
 export default function EosiSection7() {
   return (
@@ -9,7 +11,7 @@ export default function EosiSection7() {
                 Becoming an <span className=" text-[#4C205B] underline decoration-amber-500 underline-offset-4 decoration-wavy ">EOSI Finance</span>    user & Grab passive income
             </p>
 
-            <img src="section7-left.png" alt="" />
+            <Image src={section7Left} alt="" />
 
             <p className="leading-6"> 
                 If you're looking for a simple, secure  and decentralized way to grow your crypto portfolio, EOSI Finance is definitely worth checking out.
@@ -30,7 +32,7 @@ export default function EosiSection7() {
 
         <div className="flex justify-end w-full h-full">
 
-            <img className="hue-rotate-15 " src="section7-right.png" alt="" />
+            <Image className="hue-rotate-15 " src={section7Right} alt="" />
 
         </div>
 

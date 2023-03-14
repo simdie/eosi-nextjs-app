@@ -1,4 +1,8 @@
-
+import Image from "next/image"
+import section9Box1 from "public/section9-box1.png"
+import section9Box2 from "public/section9-box2.png"
+import section9Box3 from "public/section9-box3.png"
+import section9Box4 from "public/section9-box4.png"
 
 export default function EosiSection9() {
   return (
@@ -20,21 +24,21 @@ export default function EosiSection9() {
 
            <div className="flex flex-col space-y-28"> 
             <div className="text-2xl font-semi-bold text-white">
-                    <img src="section9-box1.png" alt="" />
+                    <Image src={section9Box1} alt="" />
                 </div>
 
                 <div className="text-2xl font-semi-bold text-white">
-                    <img src="section9-box2.png" alt="" />
+                <Image src={section9Box2} alt="" />
                 </div>
            </div>
 
            <div className="flex flex-col pt-36 absolute left-80 space-y-20"> 
                 <div className="text-2xl font-semi-bold text-white ">
-                    <img src="section9-box3.png" alt="" />
+                <Image src={section9Box3} alt="" />
                 </div>
 
                 <div className="text-2xl font-semi-bold text-white ">
-                    <img src="section9-box4.png" alt="" />
+                <Image src={section9Box4} alt="" />
                 </div>
            </div>
 

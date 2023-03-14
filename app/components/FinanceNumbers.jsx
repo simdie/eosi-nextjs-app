@@ -1,3 +1,5 @@
+import Image from "next/image"
+import divide from "public/divide.png"
 
 
 export default function FinanceNumbers() {
@@ -15,7 +17,7 @@ export default function FinanceNumbers() {
 
             <div className=" flex flex-row w-full items-center justify-center pt-16 space-x-4">
 
-                <img src="divide.png" alt="" />
+                <Image src={divide} alt="" />
 
                 <div>
 
@@ -31,7 +33,7 @@ export default function FinanceNumbers() {
 
             <div className=" flex flex-row w-full items-center justify-center pt-16 space-x-4">
 
-                <img src="divide.png" alt="" />
+                <Image src={divide} alt="" />
 
                 <div>
 
@@ -48,7 +50,7 @@ export default function FinanceNumbers() {
 
             <div className="flex flex-row w-full items-center justify-center pt-16 space-x-4">
 
-                <img src="divide.png" alt="" />
+            <Image src={divide} alt="" />
 
                 <div>
 
@@ -64,7 +66,7 @@ export default function FinanceNumbers() {
 
             <div className=" flex flex-row w-full items-center justify-center pt-16 space-x-4">
 
-                <img src="divide.png" alt="" />
+                <Image src={divide} alt="" />
 
                 <div>
 

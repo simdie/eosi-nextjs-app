@@ -2,7 +2,7 @@
 
 export default function HeroBody() {
   return (
-    <div className="flex flex-col justify-start mx-5 max-w-6xl  sm:mx-auto my-28">
+    <div className="flex flex-col justify-start mx-5 max-w-6xl  sm:mx-auto my-36">
         <div className=" flex items-center justify-center w-full sm:w-3/4 ">
             <h1>
                 <span className="text-5xl sm:text-6xl text-amber-500 tracking-wide leading-tight  ">Automate </span>

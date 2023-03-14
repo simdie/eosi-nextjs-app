@@ -1,3 +1,6 @@
+import Image from "next/image"
+import testtimonialimage1 from "public/testimonia-image1.png"
+import testtimonialimage2 from "public/testimonia-image2.png"
 
 export default function Testimonial() {
   return (
@@ -7,7 +10,7 @@ export default function Testimonial() {
                 "Open source software and research ecosystem seem to be flourishing and encouraging more investment in innovation. ARKInvest applauds the innovation evolving on and around the Ethereum."
             </p>
             <div className=" pt-14 flex flex-row items-start space-x-3">
-                <img src="testimonia-image1.png" alt="" />
+                <Image src={testtimonialimage1} alt="" />
 
                 <div className="space-y-1">
                     <p className="text-lg font-semibold ">Cathie Wood</p>
@@ -24,7 +27,7 @@ export default function Testimonial() {
             "A huge breakthrough! Their focus on great products and regulatory engagement will be a good formula for product development in Web3."
             </p>
             <div className=" pt-20 flex flex-row items-start space-x-3">
-                <img src="testimonia-image2.png" alt="" />
+                <Image src={testtimonialimage2} alt="" />
 
                 <div className="space-y-1">
                     <p className="text-lg font-semibold ">Xlad Dankennedy</p>

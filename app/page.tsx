@@ -5,7 +5,7 @@ export default function Home() {
    <>
     <div>
       <h1>
-        EOSI Finance
+        ...
       </h1>
     </div>
    </>

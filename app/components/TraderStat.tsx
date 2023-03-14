@@ -1,6 +1,13 @@
-// import React from 'react'
+
 import {TbChartCandle} from 'react-icons/tb';
 import {FaArrowUp} from 'react-icons/fa';
+import Image from "next/image"
+import dex1 from "public/dex1.png"
+import dex2 from "public/dex2.png"
+import dex3 from "public/dex3.png"
+import dex4 from "public/dex4.png"
+import dex5 from "public/dex5.png"
+import usdtlogo from "public/usdt-logo.png"
 
 export default function TraderStat() {
   return (
@@ -11,11 +18,11 @@ export default function TraderStat() {
                 <p className="">NightRaiderPRO TRADER</p>
                 <p className="font-semibold text-sm">DEX Platforms</p>
                 <div className='flex flex-row space-x-2'>
-                    <img src="dex1.png" alt="" />
-                    <img src="dex2.png" alt="" />
-                    <img src="dex3.png" alt="" />
-                    <img src="dex4.png" alt="" />
-                    <img src="dex5.png" alt="" />
+                    <Image src={dex1} alt="" />
+                    <Image src={dex2} alt="" />
+                    <Image src={dex3} alt="" />
+                    <Image src={dex4} alt="" />
+                    <Image src={dex5} alt="" />
                 </div>
                 
                 <p className="text-sm">Last month profit</p>
@@ -30,7 +37,7 @@ export default function TraderStat() {
 
             <div className="flex flex-col space-y-5 ">
                 <div className="flex flex-row justify-end space-x-2">
-                    <img src="usdt-logo.png" alt="" />
+                    <Image src={usdtlogo} alt="" />
                     <p className="text-sm">USDT</p>
                 </div>
                
@@ -61,11 +68,11 @@ export default function TraderStat() {
                 <p className="">WavePRO TRADER</p>
                 <p className="font-semibold text-sm">DEX Platforms</p>
                 <div className='flex flex-row space-x-2'>
-                    <img src="dex1.png" alt="" />
-                    <img src="dex2.png" alt="" />
-                    <img src="dex3.png" alt="" />
-                    <img src="dex4.png" alt="" />
-                    <img src="dex5.png" alt="" />
+                    <Image src={dex1} alt="" />
+                    <Image src={dex2} alt="" />
+                    <Image src={dex3} alt="" />
+                    <Image src={dex4} alt="" />
+                    <Image src={dex5} alt="" />
                 </div>
                 
                 <p className="text-sm">Last month profit</p>
@@ -80,7 +87,7 @@ export default function TraderStat() {
 
             <div className="flex flex-col space-y-5 ">
                 <div className="flex flex-row justify-end space-x-2">
-                    <img src="usdt-logo.png" alt="" />
+                    <Image src={usdtlogo} alt="" />
                     <p className="text-sm">USDT</p>
                 </div>
                
@@ -109,11 +116,11 @@ export default function TraderStat() {
                 <p className="">danku_zone PRO TRADER</p>
                 <p className="font-semibold text-sm">DEX Platforms</p>
                 <div className='flex flex-row space-x-2'>
-                    <img src="dex1.png" alt="" />
-                    <img src="dex2.png" alt="" />
-                    <img src="dex3.png" alt="" />
-                    <img src="dex4.png" alt="" />
-                    <img src="dex5.png" alt="" />
+                    <Image src={dex1} alt="" />
+                    <Image src={dex2} alt="" />
+                    <Image src={dex3} alt="" />
+                    <Image src={dex4} alt="" />
+                    <Image src={dex5} alt="" />
                 </div>
                 
                 <p className="text-sm">Last month profit</p>
@@ -128,7 +135,7 @@ export default function TraderStat() {
 
             <div className="flex flex-col space-y-5 ">
                 <div className="flex flex-row justify-end space-x-2">
-                    <img src="usdt-logo.png" alt="" />
+                    <Image src={usdtlogo} alt="" />
                     <p className="text-sm">USDT</p>
                 </div>
                
